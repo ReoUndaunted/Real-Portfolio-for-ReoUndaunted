@@ -3,15 +3,65 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin: 0px;
+  background-color: #e5e5e5;
+  max-height: auto;
+  margin-right: 44px;
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 0px 30px 30px 30px;
 }
 .profileHead,
-.profileNav {
-  max-width: 20%;
-  margin: 15px;
-  padding: 30px;
+.profileNav,
+.final {
+  padding-top: 40px;
+  background-color: white;
 }
+.profileHead {
+  max-width: 20%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.profileNav {
+  padding-right: 20px;
+  padding-left: 10px;
+  position: fixed;
+  left: 93%;
+  bottom: 0px;
+  top: 0px;
+  padding-bottom: 60px;
+}
+.profileMenu > ul > li {
+  list-style: none;
+  font-size: 9px;
+  margin: 75px 0px 75px 0px;
+}
+.profileMenu {
+  background-position-x: center;
+  padding: 0px;
+  margin: 0px;
+}
+.profileMenu ul {
+  padding-inline-start: 0px;
+  padding: 25px;
+}
+a {
+  text-decoration: none;
+}
+.navBtn:hover {
+  background-color: rgb(235, 203, 23);
+  border-radius: 50%;
+}
+
 .main {
   max-width: 100%;
-  margin: 0px 15px 0px 15px;
-  padding: 0px 30px 0px 30px;
+  padding-right: 0px;
+}
+.services,
+.portfolio,
+.pricing,
+.contact {
+  padding: 0px 50px 30px 50px;
 }
